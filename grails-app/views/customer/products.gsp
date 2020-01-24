@@ -20,7 +20,7 @@
    <!--use Table for better data format	-->
    
    
-   <table class="table">
+   <table class="table bordered">
     <thead>
       <tr>
         <th>Product Name</th>
@@ -36,7 +36,7 @@
 	      <tr>
 	        <td>${products.name}</td>
 	         <td>$${products.price}</td>
-	          <td>${products.sku}</td>
+	         <td>${products.sku}</td>
 	        
 	      </tr>
      </g:each>

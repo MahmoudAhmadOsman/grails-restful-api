@@ -3,7 +3,7 @@ package org.etechwebschool
 class CustomerController {
 
     def index() {
-		render "controller";
+		//render "controller";
 	}
 	
 	
