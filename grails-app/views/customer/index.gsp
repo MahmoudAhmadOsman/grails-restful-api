@@ -9,12 +9,15 @@
 
 	<section class="container">
 
-	<h2>All Customers<h2>		
+	<div class="row">
 	
+	<h2>All Customers<h2>		
+		<a href="/customer" class="btn btn-danger">Go back</a>
+	
+	</div>
 	
 	</section>	
 	
-	<a href="/customer" class="btn btn-danger">Go back</a>
 
 </body>
 </html>
