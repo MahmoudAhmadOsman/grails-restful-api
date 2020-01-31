@@ -4,6 +4,7 @@ class CustomerController {
 	static scaffold = Customer
 	def index() {
 		//render "controller"; // Static text
+		render (view: "index") 
 	}
 
 
