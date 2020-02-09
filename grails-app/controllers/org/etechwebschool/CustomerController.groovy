@@ -54,7 +54,7 @@ class CustomerController {
 
 	def products() {
 
-		//render(view: "products")
+		render(view: "products")
 
 		// Customer => is the domain class or Model Class. and 'list' is a built in function
 		def productList = Customer.list()

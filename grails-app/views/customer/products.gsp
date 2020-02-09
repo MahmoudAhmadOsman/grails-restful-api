@@ -10,14 +10,7 @@
 	<section class="container">
 	
 	<h1>Welcome to Product list page</h1>
-		<div class="well">
-		<h3>Without using Grails foreach</3>
-			${productList.name}
-			${productList.email}
-			${productList.price}
-			${productList.sku}
-			
-		</div>
+	
 			
    <!--use Table for better data format	-->
    
@@ -25,6 +18,7 @@
    <table class="table bordered">
     <thead>
       <tr>
+      <th>Title</th>
         <th>Product Name</th>
          <th>Email</th>
         <th>Price</th>
@@ -38,6 +32,7 @@
     
     <g:each in="${productList}" var="products">
 	      <tr>
+	      	  <td>${products.title}</td>
 	        <td>${products.name}</td>
 	         <td>${products.email}</td>
 	         <td>$${products.price}</td>
