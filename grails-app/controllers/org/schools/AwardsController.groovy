@@ -9,7 +9,7 @@ class AwardsController {
 
 	def awards() {
 		//redirect("scholarships/awards")
-		//render(view: "scholarships/awards")
+		//render(view: "awards")
 		redirect(controller: "scholarships", action: "index")
 	}
 }
