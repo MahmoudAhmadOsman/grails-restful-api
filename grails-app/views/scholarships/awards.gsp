@@ -1,10 +1,9 @@
-<!doctype html>
-<html>
+ 
 <head>
     <meta name="layout" content="main"/>
     <title>Awards</title>
 </head>
-<body>
+ 
 
 <section class="container">
 		<div class="row">
@@ -27,7 +26,3 @@
 </div>
 
 </section>
-
-
-</body>
-</html>

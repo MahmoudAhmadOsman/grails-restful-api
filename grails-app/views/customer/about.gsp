@@ -1,10 +1,9 @@
-<!DOCTYPE html>
-<html>
+ 
 <head>
 <title>About</title>
     <meta name="layout" content="main"/>
 </head>
-<body>
+ 
 
 	<section class="container">
 
@@ -22,8 +21,5 @@
 	</div>	
 	
 	
-	</section>	
+</section>	
 	
-
-</body>
-</html>

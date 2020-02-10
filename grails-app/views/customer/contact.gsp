@@ -1,11 +1,10 @@
-<!DOCTYPE html>
-<html>
+
 <head>
 <title>Contact</title>
     <meta name="layout" content="main"/>
 
 </head>
-<body>
+ 
 
 	<section class="container main_contact_form">
 		<div class="row">
@@ -18,11 +17,6 @@
 	
 	</div>
 	
-		</div>
+</div>
 				
-	</section>	
-	
-	
-
-</body>
-</html>
+</section>	

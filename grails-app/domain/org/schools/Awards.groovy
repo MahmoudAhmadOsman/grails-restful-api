@@ -8,6 +8,6 @@ class Awards {
 	static constraints = {
 		name(blank: false)
 		totalAwards(blank: false)
-		awardDate(blank: false)
+		awardDate(nullable: true)
 	}
 }

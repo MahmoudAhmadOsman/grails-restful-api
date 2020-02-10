@@ -1,11 +1,10 @@
-<!DOCTYPE html>
-<html>
+ 
 <head>
 <title>Customrs</title>
     <meta name="layout" content="main"/>
 
 </head>
-<body>
+
 
 	<section class="container">
 
@@ -16,8 +15,4 @@
 	
 	</div>
 	
-	</section>	
-	
-
-</body>
-</html>
+</section>	

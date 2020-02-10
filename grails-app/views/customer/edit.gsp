@@ -1,11 +1,10 @@
-<!DOCTYPE html>
-<html>
+ 
 <head>
 <title>Edit</title>
     <meta name="layout" content="main"/>
 
 </head>
-<body>
+ 
 
 	<section class="container">
 	
@@ -31,8 +30,3 @@
 			</div>
 			</div>
 	</section>	
-	
-
-
-</body>
-</html>

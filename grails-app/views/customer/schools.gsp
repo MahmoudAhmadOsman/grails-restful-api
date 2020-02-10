@@ -1,7 +1,6 @@
-<!DOCTYPE html>
-<html>
+
 <head>
-<title>Product List</title>
+<title>Schools</title>
     <meta name="layout" content="main"/>
 
 </head>
@@ -14,6 +13,4 @@
 </div>
 
 
-
-</body>
-</html>
+ 

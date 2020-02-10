@@ -1,7 +1,6 @@
-<!DOCTYPE html>
-<html>
+
 <head>
-<title>Product List</title>
+<title>Products</title>
     <meta name="layout" content="main"/>
 
 </head>
@@ -50,19 +49,9 @@
     </tbody>
   </table>
 			
-			
-			
-			
-			
-			
-			
-			
-			
-
+<a href="/customer" class="btn btn-danger">Go back</a>
 	
 	</section>	
 	
-	<a href="/customer" class="btn btn-danger">Go back</a>
+	
 
-</body>
-</html>

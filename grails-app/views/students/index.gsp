@@ -1,10 +1,9 @@
-<!doctype html>
-<html>
+
 <head>
     <meta name="layout" content="main"/>
-    <title>Home</title>
+    <title>Students Information</title>
 </head>
-<body>
+
 
 <section class="container">
 		<div class="row">
@@ -65,11 +64,6 @@
 
 <!--End of Award Section -->
 
-
-
-
 </section>
 
 
-</body>
-</html>

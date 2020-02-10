@@ -1,8 +1,6 @@
-<!doctype html>
-<html>
 <head>
     <meta name="layout" content="main"/>
-    <title>Home</title>
+    <title>Awards</title>
 </head>
 <body>
 
@@ -15,6 +13,3 @@
 
 </section>
 
-
-</body>
-</html>

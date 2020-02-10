@@ -1,10 +1,9 @@
-<!doctype html>
-<html>
+ 
 <head>
     <meta name="layout" content="main"/>
-    <title>Home</title>
+    <title>Welcome | Home</title>
 </head>
-<body>
+ 
   <section class="container">
    <div class="jumbotron">
 	  <h1>Welcome</h1>
@@ -32,13 +31,6 @@
 	
 	</div>
 	
-	
-	
-	
-	
-  
   </section>
 
 
-</body>
-</html>

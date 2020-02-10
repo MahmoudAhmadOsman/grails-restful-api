@@ -55,6 +55,7 @@
     </div>
 
     <asset:javascript src="application.js"/>
+     <asset:javascript src="custom.js"/>
 
 </body>
 </html>
