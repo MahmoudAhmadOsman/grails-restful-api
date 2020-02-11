@@ -1,6 +1,8 @@
 package org.schools
 
 class StudentsController {
+	static scaffold  = Student
+	
 
 	def index() {
 

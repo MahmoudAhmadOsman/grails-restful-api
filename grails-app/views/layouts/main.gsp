@@ -35,6 +35,7 @@
                  <li><a href="/customer/edit">Edit</a></li> 
                    <li><a href="/scholarships">Scholarships</a></li> 
                    <li><a href="/students">Students</a></li> 
+                   <li><a href="/students/create">Create New Record</a></li> 
                    <li><a href="/scholarships/awards">Awards</a></li> 
                    
                    

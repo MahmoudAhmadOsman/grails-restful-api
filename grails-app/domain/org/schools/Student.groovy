@@ -9,7 +9,7 @@ class Student {
 
 	static constraints = {
 		name(blank: false)
-		email(blank: false, unique: true)
+		email(nullable: false, blank: false, email: true)
 		phone(blank: false)
 		address(blank: false)
 	}
