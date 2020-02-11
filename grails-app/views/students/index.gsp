@@ -7,7 +7,7 @@
 
 <section class="container">
 		<div class="row">
-		<h1>Students Information</h1>
+		<h1>Student Information</h1>
 		
 <table class="table bordered">
     <thead>
