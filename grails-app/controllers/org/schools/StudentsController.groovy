@@ -1,9 +1,9 @@
 package org.schools
 
 class StudentsController {
-	
+
 	//static scaffold = Customer
-	
+
 	static scaffold = Student
 
 	def index() {
