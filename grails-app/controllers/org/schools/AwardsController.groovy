@@ -10,12 +10,13 @@ class AwardsController {
 	}
 
  	def awards() {
- 		//render(view: "awards")
+ 		render(view: "awards")
 	redirect(controller: "scholarships", action: "index")
 	}
 		
 		
 	
+
 		
 		
 }

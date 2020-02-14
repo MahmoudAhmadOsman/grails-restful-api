@@ -31,8 +31,7 @@
             </div>
             <div class="navbar-collapse collapse" aria-expanded="false" style="height: 0.8px;">
                 <ul class="nav navbar-nav navbar-right">
-                 <li><a href="/customer/about">About</a></li> 
-                 <li><a href="/customer/edit">Edit</a></li> 
+               
                    <li><a href="/scholarships">Scholarships</a></li> 
                    <li><a href="/students">Students</a></li> 
                    <li><a href="/students/create">Create New Record</a></li> 
@@ -40,7 +39,7 @@
                    
                    
                 <li><a href="/customer/products">Products</a></li> 
-                 <li><a href="/customer/contact">Contact</a></li> 
+             
                    <g:pageProperty name="page.nav" />
                 </ul>
             </div>

@@ -1,4 +1,4 @@
-package newetech
+package org.newetech
 
 class UrlMappings {
 

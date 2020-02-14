@@ -13,7 +13,7 @@ class Customer {
 		title(blank: false, unique: true)
 		name(blank: false)
 		email(blank: false)
-		price(blank: false)
+		price(blank: false, email: true)
 		sku(blank: false, unique: true)
 	}
 }
