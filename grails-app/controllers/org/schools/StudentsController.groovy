@@ -12,6 +12,7 @@ class StudentsController {
 		def studentInfo = Student.list()
 
 		//2. Create a variable that will pass this info into the view
+		// Use this variable in your view
 		[studentInfo:studentInfo]
 
 	}
