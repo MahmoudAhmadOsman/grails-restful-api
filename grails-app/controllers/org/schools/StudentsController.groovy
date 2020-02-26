@@ -1,7 +1,7 @@
 package org.schools
 
 class StudentsController {
-
+	//This creates Dynamic Scaffolding (CRUD) for Student
 	static scaffold = Student
 
 	def index() {
