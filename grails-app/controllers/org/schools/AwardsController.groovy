@@ -1,7 +1,8 @@
 package org.schools
 
 class AwardsController {
-	
+		
+	//This creates Dynamic Scaffolding (CRUD) for Award
 		static scaffold = Award
 
 	def index() {
