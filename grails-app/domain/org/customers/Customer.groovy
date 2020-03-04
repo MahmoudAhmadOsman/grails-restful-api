@@ -1,8 +1,8 @@
-package org.etechwebschool
+package org.customers
 
 class Customer {
 
-	String title
+    String title
 	String name
 	String email
 	String sku

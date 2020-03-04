@@ -38,7 +38,7 @@
                    <li><a href="/scholarships/awards">Awards</a></li> 
                    
                    
-                <li><a href="/customer/products">Products</a></li> 
+                <li><a href="/customers/products">Products</a></li> 
              
                    <g:pageProperty name="page.nav" />
                 </ul>

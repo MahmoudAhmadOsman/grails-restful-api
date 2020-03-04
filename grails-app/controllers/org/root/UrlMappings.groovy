@@ -1,4 +1,4 @@
-package org.newetech
+package org.root
 
 class UrlMappings {
 
@@ -9,7 +9,7 @@ class UrlMappings {
             }
         }
 
-        //"/"(view:"/index")
+        //"/"(view:"/index") //Application Landing Page
 		"/"(view:"/home")
         "500"(view:'/error')
         "404"(view:'/notFound')

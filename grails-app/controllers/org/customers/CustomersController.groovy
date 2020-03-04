@@ -1,7 +1,8 @@
-package org.etechwebschool
+package org.customers
 
-class CustomerController {
-	static scaffold = Customer
+class CustomersController {
+
+    static scaffold = Customer
 	
 	def index() {
 		render (view: "index") 
@@ -21,9 +22,7 @@ class CustomerController {
 		//because this variable holds all the information in the database
 		[productList:productList]
 		//2. next create a view with the same in the view folder called 'products.gsp'
-
-	}
-
-
+    
+}
 
 }
