@@ -35,10 +35,10 @@
                    <li><a href="/scholarships">Scholarships</a></li> 
                    <li><a href="/students">Students</a></li> 
                    <li><a href="/students/create">Create New Record</a></li> 
-                   <li><a href="/scholarships/awards">Awards</a></li> 
+                   <li><a href="/awards">Awards</a></li> 
                    
                    
-                <li><a href="/customers/products">Products</a></li> 
+                <li><a href="/products">Products</a></li> 
              
                    <g:pageProperty name="page.nav" />
                 </ul>

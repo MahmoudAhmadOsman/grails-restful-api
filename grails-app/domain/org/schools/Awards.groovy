@@ -1,11 +1,12 @@
 package org.schools
 
-class Award {
+class Awards {
 	String name
 	Float totalAwards
 	Date awardDate
+	
     static constraints = {
-		name(blank: false)
+    	name(blank: false)
 		totalAwards(blank: false)
 		awardDate(nullable: true)
     }

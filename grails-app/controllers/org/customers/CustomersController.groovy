@@ -4,9 +4,9 @@ class CustomersController {
 
     static scaffold = Customer
 	
-	def index() {
-		render (view: "index") 
-	}
+	//def index() {
+		//render (view: "index") 
+	//}
 
 
 	def products() {
