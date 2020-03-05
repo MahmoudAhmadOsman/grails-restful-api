@@ -1,14 +1,13 @@
-
 <head>
     <meta name="layout" content="main"/>
     <title>Students Information</title>
 </head>
 
-
-<section class="container">
-		<div class="row">
-		<h1>Student Information</h1>
-		
+<section class="student-home">
+<div class="container">
+	<div class="row">	
+	<div class="col-lg-8">	
+		<h1>Student Information</h1>	
 <table class="table bordered">
     <thead>
       <tr>
@@ -33,37 +32,28 @@
 	      </tr>
      </g:each>
      
-     
-     
-     
-   
+
     </tbody>
   </table>
+	</div>
+	
 		
-</div>
-
-
-<!-- Start of Scholarships Section -->
-
-
-<div class="row">
-<h2>Student Scholarships</h2>
-
-</div>
-
-
-
-<!--End of Scholarships Section -->
-
-<!--Start of Award Section -->
-<div class="row">
-<h2>Student Scholarships</h2>
+<div class="col-lg-4">
+	<div class="student-scholarship">
+		<h3 class="text-center">Scholarships</h3>
+			<i class="fa fa-plus" aria-hidden="true"></i>
+			 <a href="/students/create" >Register New Student</a>
+			
+		
+	</div>		
+</div>	
 	
 
+		
+		
+		
+</div> <!--End of row div -->
 </div>
-
-<!--End of Award Section -->
-
 </section>
 
 

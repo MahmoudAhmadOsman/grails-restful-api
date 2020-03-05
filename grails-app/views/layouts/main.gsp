@@ -10,6 +10,7 @@
     <asset:link rel="icon" href="favicon.ico" type="image/x-ico" />
 
     <asset:stylesheet src="application.css"/>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <asset:stylesheet src="custom.css"/>
 
     <g:layoutHead/>
@@ -34,7 +35,7 @@
                
                    <li><a href="/scholarships">Scholarships</a></li> 
                    <li><a href="/students">Students</a></li> 
-                   <li><a href="/students/create">Create New Record</a></li> 
+          
                    <li><a href="/awards">Awards</a></li> 
                    
                    

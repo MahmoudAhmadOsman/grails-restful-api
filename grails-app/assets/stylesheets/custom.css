@@ -39,3 +39,38 @@ input[type="submit"] {
 	margin-bottom: 20px;
 }
 /* End of contact style */
+
+/* Start of Student home page */
+
+.student-home{
+	 
+    background-color: #fff;
+}
+.student-home h1{
+	color:#333;
+}
+
+.student-home .student-scholarship{
+	background-color:#f7f7f7;
+	height: 100vh;
+	color:#000;
+	
+}
+.student-home .table thead{
+	background: #5d5d5d;
+    color: #fff;
+    border: 0px;
+}
+.student-scholarship>a{
+	color: #f0f;
+    font-size: 15px;
+    padding: 1px;
+}
+
+
+
+
+
+
+
+
