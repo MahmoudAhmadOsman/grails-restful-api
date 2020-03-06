@@ -6,7 +6,7 @@ class StudentsController {
 
 	def index() {
 		
-		//render(view: "index")
+		//render(view: "index") //Don't enable this
 
 		//1. Get all the info about Student from Student Model or Domain
 		def studentInfo = Students.list()

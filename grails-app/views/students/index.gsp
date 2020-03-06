@@ -15,7 +15,9 @@
         <th>Full Name</th>
          <th>Email</th>
         <th>Address</th>
-        <th>Phone</th>
+        <th>Phone</th> 
+        <th></th>
+         <th>Action</th>
         
       </tr>
     </thead>
@@ -29,6 +31,8 @@
 	        <td>${info.email}</td>
 	         <td>${info.address}</td>
 	         <td>${info.phone}</td> 
+	         <td><a href="/students/" class="btn btn-info btn-sm">Edit</a></td> 
+	         <td><a href="/students/" class="btn btn-danger btn-sm">Delete</a></td> 
 	      </tr>
      </g:each>
      

@@ -5,10 +5,12 @@
 
 </head>
 <body>
-
-	<section class="container">
+<section class="product-page">
+<div class="container">
 	
-	<h1>All Products</h1>
+	<div class="row">
+	<div class="col-lg-10">
+			<h1>All Products</h1>
 	
 			
    <!--use Table for better data formating	-->
@@ -41,10 +43,15 @@
    
     </tbody>
   </table>
-			
-<a href="/customer" class="btn btn-danger">Go back</a>
+	</div>
 	
-	</section>	
+	<div class="col-lg-2">
+		<a href="products/create">Add New Product</a>
+	</div>
+	
+	</div>
+	</div>
+</section>	
 	
 	
 

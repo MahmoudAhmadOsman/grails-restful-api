@@ -38,8 +38,9 @@
           
                    <li><a href="/awards">Awards</a></li> 
                    
-                   
+               
                 <li><a href="/products">Products</a></li> 
+                <li><a href="/customers">Customers</a></li> 
              
                    <g:pageProperty name="page.nav" />
                 </ul>
