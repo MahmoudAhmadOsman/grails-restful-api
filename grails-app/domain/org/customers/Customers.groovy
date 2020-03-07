@@ -10,7 +10,7 @@ class Customers {
     static constraints = {
 		name(blank: false)
 		email(blank: false, email: true)
-		 phone(blank: false)
+		phone(blank: false)
 		age(blank: false)
 		address(blank: false)
     }

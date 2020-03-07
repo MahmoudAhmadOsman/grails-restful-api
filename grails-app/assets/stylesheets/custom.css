@@ -42,6 +42,13 @@ input[type="submit"] {
 
 /* Start of Student home page */
 
+/*Awards Page Style*/
+.all-awards{
+	background:#fff;
+	color:#333;
+	display:block;
+	position:relative;
+}
 .student-home{
 	 
     background-color: #fff;

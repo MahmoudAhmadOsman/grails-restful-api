@@ -6,9 +6,9 @@ class Products {
 	String skew
    
   static constraints = {
-    name(nullable: false, blank: false)
-    price(nullable: false, blank: false)
-    skew(nullable: false, blank: false)
+    name(blank: false)
+    price(blank: false)
+    skew(blank: false)
     
     }
 }
