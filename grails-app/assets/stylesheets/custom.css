@@ -54,6 +54,7 @@ input[type="submit"] {
 	background-color:#f7f7f7;
 	height: 100vh;
 	color:#000;
+	text-align:center;
 	
 }
 .student-home .table thead{
