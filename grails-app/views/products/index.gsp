@@ -46,7 +46,11 @@
 	</div>
 	
 	<div class="col-lg-2">
-		<a href="products/create">Add New Product</a>
+		<div class="product-sidebar">
+		<ul>
+			<li><a href="products/create">Add New Product</a></li>
+		</li>
+	</div>
 	</div>
 	
 	</div>

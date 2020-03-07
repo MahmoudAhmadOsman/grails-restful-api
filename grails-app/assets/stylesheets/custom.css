@@ -61,6 +61,13 @@ input[type="submit"] {
     color: #fff;
     border: 0px;
 }
+
+.student-home th.c-right{
+	border-right: 1px solid #fff;
+}
+
+
+
 .student-scholarship>a{
 	color: #f0f;
     font-size: 15px;
@@ -68,9 +75,43 @@ input[type="submit"] {
 }
 
 
+/*Customer page*/
+.all_customers{
+	display:block;
+	position:relative
+}
+.all_customers table{
+	font-weight:normal;
+}
 
 
 
+/*Product Page*/
+.product-page{
+	background: #fff;
+    display: block;
+    position: relative;
+}
+
+.product-page .product-sidebar{
+	height:100vh;
+	background-color:#f3f3f3;
+	text-align:center;
+	display:block;
+	position:absolute;
+}
+.product-page .product-sidebar ul li{
+	font-weight: bold;
+    list-style: none;
+    background: #c144c1;
+    color: #fff;
+    border-radius: 50px;
+    margin-top: 5px;
+    padding: 3px 5px;
+}
+.product-page .product-sidebar ul li a{
+	color:#fff;
+}
 
 
 

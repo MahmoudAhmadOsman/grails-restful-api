@@ -82,7 +82,7 @@ img {
 .scaffold-list h1 {
 	border: none;
 }
-
+/*
 .footer {
 	background: #424649;
 	color: #ffffff;
@@ -97,6 +97,7 @@ img {
 	color: #feb672;
 }
 
+*/
 .spinner {
 	background: url(../images/spinner.gif) 50% 50% no-repeat transparent;
 	height: 16px;
