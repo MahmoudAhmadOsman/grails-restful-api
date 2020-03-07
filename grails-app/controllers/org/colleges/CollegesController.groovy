@@ -1,7 +1,6 @@
-package org.college
+package org.colleges
 
 class CollegesController {
-static scaffold = Colleges
-
+	static scaffold = Colleges
     def index() { }
 }

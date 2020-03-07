@@ -1,4 +1,4 @@
-package org.college
+package org.colleges
 
 import grails.testing.gorm.DomainUnitTest
 import spock.lang.Specification

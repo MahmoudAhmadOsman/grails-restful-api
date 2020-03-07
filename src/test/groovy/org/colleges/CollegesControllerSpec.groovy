@@ -1,4 +1,4 @@
-package org.college
+package org.colleges
 
 import grails.testing.web.controllers.ControllerUnitTest
 import spock.lang.Specification

@@ -1,7 +1,8 @@
-package org.college
+package org.colleges
 
 class Colleges {
-	String name
+
+   String name
 	String location
 	int collegeCode
 
