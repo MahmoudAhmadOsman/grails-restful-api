@@ -9,7 +9,7 @@
 <div class="container">
 	
 	<div class="row">
-	<div class="col-lg-10">
+	<div class="col-lg-10 col-xs-12">
 			<h1>All Products</h1>
 	
 			
@@ -19,9 +19,9 @@
     <thead>
       <tr>
       
-        <th>Product Name</th>
-        <th>Price</th>
-        <th>SKU</th>
+        <th><b>Product Name</b></th>
+        <th><b>Price</b></th>
+        <th><b>SKU</b></th>
         
       </tr>
     </thead>
@@ -32,7 +32,7 @@
     <g:each in="${productList}" var="products">
 	      <tr>
 	      	  <td>${products.name}</td>
-	        <td>${products.price}</td>
+	        <td>$${products.price}</td>
 	         <td>${products.skew}</td>
 	      </tr>
      </g:each>
@@ -45,7 +45,7 @@
   </table>
 	</div>
 	
-	<div class="col-lg-2">
+	<div class="col-lg-2 col-xs-12">
 		<div class="product-sidebar">
 		<ul>
 			<li><a href="products/create">Add New Product</a></li>

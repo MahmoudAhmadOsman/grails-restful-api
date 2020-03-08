@@ -50,11 +50,14 @@ input[type="submit"] {
 	position:relative;
 }
 .student-home{
-	 
+	 position:relative
     background-color: #fff;
 }
 .student-home h1{
 	color:#333;
+}
+.student-home a{
+	text-decoration: none;
 }
 
 .student-home .student-scholarship{
@@ -94,7 +97,7 @@ input[type="submit"] {
 
 
 
-/*Product Page*/
+/*Product Page Style*/
 .product-page{
 	background: #fff;
     display: block;
@@ -102,19 +105,19 @@ input[type="submit"] {
 }
 
 .product-page .product-sidebar{
+	width:100%;
 	height:100vh;
 	background-color:#f3f3f3;
 	text-align:center;
 	display:block;
-	position:absolute;
+	position:relative;
 }
 .product-page .product-sidebar ul li{
 	font-weight: bold;
     list-style: none;
-    background: #c144c1;
+    background-color: #4aa0ab;
     color: #fff;
-    border-radius: 50px;
-    margin-top: 5px;
+    border-radius: 0px;
     padding: 3px 5px;
 }
 .product-page .product-sidebar ul li a{
