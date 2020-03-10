@@ -23,17 +23,20 @@ height: 350px;
 
 
 /* Start of contact style */
-.main_contact_form
-input[type="text"], input[type="email"] {
-	margin-bottom: 15px;
+.list-contact{
+	background-color:#fff;
+}
+.list-contact .new-contact{
+	width:auto;
+	height:100vh;
+	display:block;
+	background-color:#ccc;
+	
 }
 
-.main_contact_form
-input[type="submit"] {
-	margin-top: 5px;
-}
 
-.main_contact_form h1 {
+
+.list-contact h1 {
 	font-size: 25px;
 	font-weight: bold;
 	margin-bottom: 20px;

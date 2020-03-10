@@ -42,6 +42,7 @@
                 <li><a href="/products">Products</a></li> 
                 <li><a href="/customers">Customers</a></li> 
                   <li><a href="/colleges">Colleges</a></li> 
+                  <li><a href="/contact">Contacts</a></li> 
              
                    <g:pageProperty name="page.nav" />
                 </ul>
