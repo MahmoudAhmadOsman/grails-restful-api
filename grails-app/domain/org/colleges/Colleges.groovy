@@ -2,13 +2,19 @@ package org.colleges
 
 class Colleges {
 
-   String name
-	String location
+	String name
+	String state
+	String city
+	int zipCode
+	int phoneNumber
 	int collegeCode
 
     static constraints = {
     	name(blank: false)
-    	location(blank: false)
+    	state(blank: false)
+		city(blank: false)
+		zipCode(blank: false)
+		phoneNumber(blank: false)
     	collegeCode(blank: false)
     }
 }

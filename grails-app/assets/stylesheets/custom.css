@@ -128,4 +128,10 @@ height: 350px;
 }
 
 
-
+/*College Registration style*/
+.register_college{
+	background-color: :#fff;
+	height:auto;
+	display:block;
+	position:relative;
+}
