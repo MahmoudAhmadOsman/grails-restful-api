@@ -1,6 +1,6 @@
 <head>
-		 <meta name="layout" content="main" />
-        <title>Show Colleges</title>
+	<meta name="layout" content="main" />
+	<title>Show Colleges</title>
     </head>
 <section class="container">
 <div class="row">
@@ -25,32 +25,24 @@
     </thead>
     <tbody>
 
-		<td>${college.name}</td>
-		<td>${college.state}</td>
-    <td>${college.city}</td>
-    <td>${college.zipCode}</td>
-    <td>${college.phoneNumber}</td>
-    <td>${college.collegeCode}</td>
+	<td>${college.name}</td>
+	<td>${college.state}</td>
+	<td>${college.city}</td>
+	<td>${college.zipCode}</td>
+	<td>${college.phoneNumber}</td>
+	<td>${college.collegeCode}</td>
 		
-
-
 		<td><g:link action="edit" id="${college.id}" class="btn btn-primary btn-sm"><i class="fa fa-edit"> Edit</i></g:link></td>
-
 		<td><g:link action="delete" id="${college.id}" class="btn btn-danger btn-sm"><i class="fa fa-trash"> Delete</i></g:link></td>
-        
-      
-        
         
         
     </tbody>
   </table>      
-        
-        
+              
         
 </div>
 
 <div class="col-md-2"></div>
-
 
 </div>
 </section>
