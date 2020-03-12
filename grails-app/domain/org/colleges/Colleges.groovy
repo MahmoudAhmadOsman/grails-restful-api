@@ -10,11 +10,11 @@ class Colleges {
 	int collegeCode
 
     static constraints = {
-    	name(blank: false)
-    	state(blank: false)
-		city(blank: false)
-		zipCode(blank: false)
-		phoneNumber(blank: false)
-    	collegeCode(blank: false)
+	name(blank: false)
+	state(blank: false)
+	city(blank: false)
+	zipCode(blank: false)
+	phoneNumber(blank: false)
+	collegeCode(blank: false)
     }
 }
