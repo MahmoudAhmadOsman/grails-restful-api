@@ -6,7 +6,7 @@ static scaffold = Products
 
     def index() {
    
-		//render(view: "index") // Custom view - Don't enable this index
+		//render(view: "index") // Custom view 
 		//render(view: "products")
 
 		// Get all products

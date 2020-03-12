@@ -8,7 +8,7 @@ class Products {
   static constraints = {
     name(blank: false)
     price(blank: false)
-    skew(blank: false)
+    skew(blank: false, unique:true)
     
     }
 }

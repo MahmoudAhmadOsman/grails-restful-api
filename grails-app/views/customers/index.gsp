@@ -33,7 +33,7 @@
 			 <td>${allcustomers.name}</td>
 			<td>${allcustomers.email}</td>
 			 <td>${allcustomers.age}</td>
-			 <td>$${allcustomers.phone}</td>
+			 <td>${allcustomers.phone}</td>
 			 <td>${allcustomers.address}</td>
 	         
 	          

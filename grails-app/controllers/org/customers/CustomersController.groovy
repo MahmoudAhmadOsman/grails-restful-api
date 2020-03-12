@@ -5,8 +5,7 @@ class CustomersController {
     static scaffold = Customers
 	
 	def index() {
-		//render (view: "index") //Don't enable this
-		
+		//render (view: "index") // default index
 		
 		// Get all customer
 		def customerLists = Customers.list()
