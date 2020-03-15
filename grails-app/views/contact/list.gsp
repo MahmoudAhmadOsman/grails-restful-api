@@ -15,7 +15,7 @@
 
         <th><b>Full Name</b></th>
          <th><b>Phone Number</b></th>
-         <th></th>
+         <th><b>Message</b></th>
         <th><b>Actions</b></th>
 
       </tr>
@@ -30,8 +30,9 @@
         <tr>
 	      	 <td>${contact.name}</td>
 	        <td>${contact.phoneNumber}</td>
-	         <td><g:link action="edit" 
-               id="${contact.id}" class="btn btn-primary btn-sm"><i class="fa fa-edit"> Edit</i></g:link></td>
+          <td>${contact.message}</td>
+	         %{-- <td><g:link action="edit" 
+               id="${contact.id}" class="btn btn-primary btn-sm"><i class="fa fa-edit"> Edit</i></g:link></td> --}%
 	         <td><g:link action="delete" id="${contact.id}" class="btn btn-danger btn-sm"><i class="fa fa-trash" onclick="return confirm('Are you sure, you want to delete this record?');"> Delete</i></g:link></td> 
 	         <td> 
 	      </tr>  
