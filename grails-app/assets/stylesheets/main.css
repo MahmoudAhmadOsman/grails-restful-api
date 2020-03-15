@@ -491,7 +491,7 @@ th:hover, tr:hover {
 	margin: 0.1em 0 0 0;
 	border: none;
 }
-
+/*
 .buttons input, .buttons a {
 	background-color: transparent;
 	border: 0;
@@ -517,7 +517,7 @@ th:hover, tr:hover {
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
-
+*/
 .no-borderradius .buttons input:hover, .no-borderradius .buttons input:focus,
 	.no-borderradius .buttons a:hover, .no-borderradius .buttons a:focus {
 	background-color: transparent;

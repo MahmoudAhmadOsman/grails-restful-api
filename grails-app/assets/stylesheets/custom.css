@@ -21,6 +21,24 @@ height: 350px;
 	
 }
 
+/*Main Navigation*/
+
+.navbar-brand img{
+	width: auto !important; 
+    height: auto !important;
+}
+.navbar-default, .navbar-static-top {
+    background-color: #272724;
+	border: 0px;
+
+
+}
+.navbar-default .navbar-nav > li > a{
+	font-size: 16px !important;
+	line-height: 0px;
+}
+
+
 
 /* Start of contact style */
 .list-contact{

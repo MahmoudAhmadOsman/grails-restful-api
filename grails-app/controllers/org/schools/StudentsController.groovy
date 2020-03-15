@@ -1,20 +1,48 @@
 package org.schools
 
 class StudentsController {
-	//This creates Dynamic Scaffolding (CRUD) for Student
-	static scaffold = Students
+	
+	def index = {
+        redirect action: "list"
+    }
 
-	def index() {
-		
-		//render(view: "index") //Don't enable this
+    def create = {}
 
-		//1. Get all the info about Student from Student Model or Domain
-		def studentInfo = Students.list()
+	 def save = {
+        def students = new Students(params)
+        students.save flush: true, failOnError: true
+        redirect action: "show", id: students.id
+    }
 
-		//2. Create a variable that will pass this info into the view
-		// Use this variable in your view
-		
-		[studentInfo:studentInfo]
+    def edit = {
+        def students = Students.get(params.id)
+        [students: students]
+    }
 
-	}
+    def update = {
+        def students = Students.get(params.id)
+        students.properties = params
+        students.save flush: true, failOnError: true
+        redirect action: "show", id: params.id
+    }
+
+    def show = {
+        def students = Students.get(params.id)
+        [students: students]
+    }
+
+    def list = {
+        def students = Students.list()
+        [students: students]
+    }
+
+    def delete = {
+        def students = Students.get(params.id)
+        students.delete flush: true, failOnError: true
+        redirect action: "index"
+    }
+
+	
+
+
 }

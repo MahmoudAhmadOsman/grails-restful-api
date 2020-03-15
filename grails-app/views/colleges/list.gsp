@@ -21,7 +21,9 @@
         <th><b>Zip Code</b></th>
         <th><b>Phone Number</b></th>
          <th><b>College Code</b></th>
+         <th></th>
           <th><b>Actions</b></th>
+        
 
       </tr>
     </thead>
@@ -38,6 +40,8 @@
           <td>${college.city}</td>
           <td>${college.zipCode}</td>
           <td>${college.phoneNumber}</td>
+          <td>${college.collegeCode}</td>
+
 
           
 	         <td><g:link action="edit" 

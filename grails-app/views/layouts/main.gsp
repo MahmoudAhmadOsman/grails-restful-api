@@ -26,8 +26,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/#">
-		    <asset:image src="grails.svg" alt="Netsansoftware"/>
+                <a class="navbar-brand" href="/">
+		    <asset:image src="netsansoftware-logo.png" alt="Netsansoftware"/>
                 </a>
             </div>
             <div class="navbar-collapse collapse" aria-expanded="false" style="height: 0.8px;">
