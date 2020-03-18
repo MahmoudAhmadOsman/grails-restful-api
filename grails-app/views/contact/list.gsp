@@ -44,18 +44,13 @@
      </tbody>
   </table>
 	</div>       
- <div class="col-lg-2">
- 	<div class="new-contact">	
- 		<g:link action="create">Create New Contact</g:link>
- </div>
+  <div class="col-lg-2">
+    <div class="new-contact">	
+      <g:link action="create">Create New Contact</g:link>
+  </div>
  </div>       
         
-        
-        
-        
-        
-        
-        
+       
       </div>
 	</div>
 	</div>

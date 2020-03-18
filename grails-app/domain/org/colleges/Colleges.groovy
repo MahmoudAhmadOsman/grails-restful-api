@@ -6,7 +6,7 @@ class Colleges {
 	String state
 	String city
 	int zipCode
-	int phoneNumber
+	String phoneNumber
 	int collegeCode
 
     static constraints = {

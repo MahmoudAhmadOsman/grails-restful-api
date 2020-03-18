@@ -2,7 +2,7 @@ package org.contact
 
 class Contact {
 	String name
-    Integer phoneNumber
+    String phoneNumber
     String message
 
 

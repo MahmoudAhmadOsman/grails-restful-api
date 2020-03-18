@@ -2,7 +2,7 @@
  	 <meta name="layout" content="main" />
         <title>Contact Us</title>
     </head>
-    <body>
+
         <section class="container">
         	<div class="row">
         	<div class="col-md-2"></div>
@@ -28,4 +28,3 @@
         	<div class="col-md-2"></div>
         	</div>
         </section>
-    </body>
