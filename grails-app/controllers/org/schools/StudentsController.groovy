@@ -1,7 +1,7 @@
 package org.schools
 
 class StudentsController {
-	
+	// static hasMany = [scholarships:Scholarships, awards:Awards]
 	def index = {
         redirect action: "list"
     }
