@@ -6,7 +6,7 @@ class Awards {
 	Date awardDate
 	
     static constraints = {
-    	name(blank: false)
+    	        name(blank: false)
 		totalAwards(blank: false)
 		awardDate(nullable: true)
     }
