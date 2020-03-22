@@ -5,7 +5,7 @@ class Scholarships {
 	Float amount
 	
     static constraints = {
-    	name(blank: false)
+    	        name(blank: false)
 		amount(blank: false)
     }
 }
