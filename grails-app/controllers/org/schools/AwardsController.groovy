@@ -14,7 +14,7 @@ class AwardsController {
 
  	def awards() {
  		render(view: "awards")
-			//redirect(controller: "scholarships", action: "index")
+		//redirect(controller: "scholarships", action: "index")
 	}
 		
 		
