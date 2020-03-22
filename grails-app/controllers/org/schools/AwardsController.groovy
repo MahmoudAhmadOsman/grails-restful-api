@@ -4,6 +4,8 @@ class AwardsController {
 		
 	//This creates Dynamic Scaffolding (CRUD) for Award
 	static scaffold = Awards
+	//static belongsTo = [students:Students, scholarships:Scholarships]
+	
 
 	def index() {
 
