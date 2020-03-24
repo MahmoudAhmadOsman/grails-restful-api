@@ -8,6 +8,8 @@ class Colleges {
 	int zipCode
 	String phoneNumber
 	int collegeCode
+	
+	//static hasMany = [students: Students]
 
     static constraints = {
 	name(blank: false)

@@ -6,7 +6,10 @@ class Students {
 	String email
 	String phone
 	String address
-//static belongsTo = [colleges: Colleges]
+
+   //static belongsTo = [college: Colleges, scholarships: Scholarships]
+
+
     static constraints = {
     	        name(blank: false)
 		dateOfBirth(blank: false)
