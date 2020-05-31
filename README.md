@@ -34,7 +34,7 @@ $ git clone https://github.com/MahmoudAhmadOsman/grails-RESTful-api.git
 ## To create a Grails application use this command
 
 ```bash
-$ grails create-app 
+$ grails create-app [ project name ]
 ```
 
 
