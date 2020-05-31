@@ -28,7 +28,7 @@ ________________________________________________________________________________
 ## Clone this project
 
 ```bash
-$ git clone https://github.com/MahmoudAhmadOsman/grails-img-api.git
+$ git clone https://github.com/MahmoudAhmadOsman/grails-RESTful-api.git
 ```
 
 ## To create a Grails application use this command
