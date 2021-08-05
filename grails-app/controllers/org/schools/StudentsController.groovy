@@ -41,8 +41,4 @@ class StudentsController {
         students.delete flush: true, failOnError: true
         redirect action: "index"
     }
-
-	
-
-
 }
