@@ -9,9 +9,9 @@ class UrlMappings {
             }
         }
 
-        //"/"(view:"/index") //Default Landing Page
-		"/"(view:"/home") // Application Landing Page
-        "500"(view:'/error')
-        "404"(view:'/notFound')
+        //"/"(view:"/index") //Default Landing Page for your application
+		"/"(view:"/home") //Custom Landing Page
+        "500"(view:'/error')  //Error page - you can customize this if you want
+        "404"(view:'/notFound') //NotFound page - you can customize this if you want
     }
 }
