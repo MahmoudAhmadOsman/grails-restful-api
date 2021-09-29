@@ -1,15 +1,12 @@
 package org.contact
 
 class Contact {
-	String name
+    String name
     String phoneNumber
     String message
 
-
-
   static mapping = {
        message  sqlType: 'varchar(255)'
-      
     }
 
     static constraints = {
@@ -17,6 +14,5 @@ class Contact {
         phoneNumber(blank: false, unique: true)
         message(blank: false)
     }
-    
     
 }
