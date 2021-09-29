@@ -3,12 +3,10 @@ import org.openqa.selenium.chrome.ChromeOptions
 import org.openqa.selenium.htmlunit.HtmlUnitDriver
 
 environments {
-
     // run via “./gradlew -Dgeb.env=chrome -Dwebdriver.chrome.driver=/Applications/chromedriver iT”
     chrome {
         driver = { new ChromeDriver() }
     }
-
     // run via “./gradlew -Dgeb.env=chromeHeadless -Dwebdriver.chrome.driver=/Applications/chromedriver iT”
     chromeHeadless {
         driver = {
